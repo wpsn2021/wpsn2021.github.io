@@ -3160,7 +3160,7 @@
 			text-transform: none;
 			font-weight: 600;
 			font-family: 'Verdana', cursive;
-			font-size: .8em;
+			font-size: .75em;
 		}
 
 			#header a:hover {
@@ -3651,19 +3651,61 @@
 			}
 		}
 /* --------------------- */
+	#camready {
+		padding: 4em 0 2em 0;
+		background: #f3f3f3;
+	}
+
+		@media screen and (max-width: 980px) {
+			#camready {
+				padding: 4em 0 2em 0;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			#camready {
+				padding: 2em 0 0.1em 0;
+			}
+		}
+/* --------------------- */
+	#committee {
+		padding: 4em 0 2em 0;
+	}
+		
+		#committee strong, #committee b {
+			color: black;
+		}
+		
+		#committee a {
+			color: blue;
+			font-weight: 300;
+		}
+		
+		@media screen and (max-width: 980px) {
+			#committee {
+				padding: 4em 0 2em 0;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			#committee {
+				padding: 2em 0 0.1em 0;
+			}
+		}
+/* --------------------- */
 	#dates {
 		padding: 4em 0 2em 0;
 		background: #f3f3f3;
 	}
 
 		@media screen and (max-width: 980px) {
-			#submission {
+			#dates {
 				padding: 4em 0 2em 0;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
-			#submission {
+			#dates {
 				padding: 2em 0 0.1em 0;
 			}
 		}
@@ -3812,6 +3854,24 @@
 
 		}
 
+		
+/* 'contact us' - made from Footer */
+	#contact {
+		background-color: #e5474b;
+		color: #f2a3a5;
+		padding: 4em 0 2em 0;
+		background: #e5474b;
+	}
+
+		#contact a {
+			color: #ffffff;
+		}
+		#contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
+			color: #fff;
+		}
+
+	
+		
 /* Footer */
 
 	#footer {
