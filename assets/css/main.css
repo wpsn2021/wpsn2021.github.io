@@ -3154,13 +3154,13 @@
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 2em;
+			padding: 0 1em;
 			color: #ffffff;
 			text-decoration: none;
 			text-transform: none;
 			font-weight: 600;
 			font-family: 'Verdana', cursive;
-			font-size: .75em;
+			font-size: .77em;
 		}
 
 			#header a:hover {
@@ -3706,6 +3706,31 @@
 
 		@media screen and (max-width: 736px) {
 			#dates {
+				padding: 2em 0 0.1em 0;
+			}
+		}
+/* --------------------- */
+	#program {
+		padding: 4em 0 2em 0;
+	}
+	
+	#program strong, #program b {
+		color: black;
+	}
+		
+	#program a {
+		color: blue;
+		font-weight: 300;
+	}
+
+		@media screen and (max-width: 980px) {
+			#submission {
+				padding: 4em 0 2em 0;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			#submission {
 				padding: 2em 0 0.1em 0;
 			}
 		}
