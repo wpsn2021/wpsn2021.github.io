@@ -3724,30 +3724,30 @@
 	}
 
 		@media screen and (max-width: 980px) {
-			#submission {
+			#program {
 				padding: 4em 0 2em 0;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
-			#submission {
+			#program {
 				padding: 2em 0 0.1em 0;
 			}
 		}
 /* --------------------- */
-	#partnership {
+	#partnershipz {
 		padding: 4em 0 2em 0;
 		background: #f3f3f3;
 	}
 
 		@media screen and (max-width: 980px) {
-			#partnership {
+			#partnershipz {
 				padding: 4em 0 2em 0;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
-			#partnership {
+			#partnershipz {
 				padding: 2em 0 0.1em 0;
 			}
 		}
